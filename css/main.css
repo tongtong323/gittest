@@ -1,0 +1,128 @@
+body { background: #fff repeat 0 0;color: #5c5c5c;font: normal normal normal 62.5%/1.5 sans-serif;font-family:"微软雅黑"; min-width:1280px; }
+*{padding:0px;margin:0px;}
+body,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,p,form,fieldset,legend,input,textarea,select,button,th,td {margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6 {font-size:30px;list-style:none; font-weight:normal;}
+input,select {font:100% Helvetica, Tahoma, Arial, "Microsoft YaHei", "微软雅黑", SimSun, "宋体", STXihei, "华文细黑", Heiti, "黑体", sans-serif;}
+button {overflow:visible}
+img{border:none; vertical-align:middle;}
+a{color:#666;text-decoration:none; font-size:14px; outline:none;}
+a:hover{color:#990033;text-decoration:none; }
+li{	list-style:none;}
+input,select,button{font:14px Verdana,Arial,Tahoma;vertical-align:middle;}
+.clear{clear:both;}
+.lf{ float:left;}
+.rt{ float:right;}
+em {font-style:italic}
+a, input[type=button], input[type=submit], button {cursor:pointer}
+ol li {padding: 5px 0;}
+li p, li li, li a, p a, p span {font-size: 1em}
+li > p {margin-top: 0}
+.lf { float:left;}
+.rt { float:right;}
+.clear { clear:both;}
+
+
+
+
+
+#accordion p {
+	line-height:18px;
+}
+#accordion div.content > a {
+    cursor:pointer;
+    display:block;
+    font-weight: bold;
+    font-size: 12px;
+	margin-top:20px;
+    color: #333;
+	border:none;
+}
+
+.con { width:1200px; margin:0px auto;}
+.top { width:100%; height:40px; background:#f2f2f2; border-top:9px solid #f2f2f2; line-height:40px; }
+.top a { padding:0px 5px;}
+.sou { width:245px; padding:5px 8px; background:#f2f2f2; }
+.sou .txt { background:#f2f2f2; border-radius:0px; height:21px; line-height:0px;}
+.sou .txt1{ width:180px; border:none; background:none; outline:none; padding-left:5px;padding-top:4px}
+.zi { font-size:20px; font-family:Arial, Helvetica, sans-serif; line-height:115px; color:#000;}
+
+.zxgg { width:1200px; height:60px; line-height:60px; background:#f44336; margin:0px auto; padding:0px 20px; font-size:16px; color:#FFF;}
+.zxgg  a {font-size:16px; color:#FFF;}
+
+/*导航*/
+.menu {background:#fff; width:1200px; margin:0px auto; height:45px;}
+.menu ul {padding:0; margin:0;list-style-type: none; width:1200px; margin:0px auto;}
+.menu ul li {float:left; position:relative; background:url(../images/xt.jpg) no-repeat center right;}
+.menu ul li a, .menu ul li a:visited {display:block; text-align:center; text-decoration:none;color:#333; line-height:45px; font-size:16px; width: 150px;}
+.menu ul li ul {display: none; z-index:99999;}
+.menu ul li .hide {color:#990033; }
+.menu ul>li:hover a {color:#fff; background:#000; background: rgba(45, 45, 45, 0.9);}
+.menu ul>li:hover ul {display:block; position:absolute; top:45px; left:0;  width:123px;}
+.menu ul>li:hover ul li a {display:block;  background:#000;background: rgba(45, 45, 45, 0.8); font-size:14px;font-weight:normal;height:32px;line-height:32px; color:#fff; padding:0px; width:150px; text-align:center; }
+.menu ul>li:hover ul li a:hover { background:#000; background: rgba(45, 45, 45, 0.9); color:#fff;font-size:14px;font-weight:normal; display:block;}
+.menu ul>li:last-child{ background:none;}
+
+/*三级菜单*/
+/*因为父集有背景图，所以要隐藏*/
+.menu ul li ul li ul li {background: none;} 
+/*.menu ul li ul li ul{width: 200px;height: 300px;left: 100px;top:10px;}*/
+.menu ul li ul li ul li {float:left; position:relative;width: 136px;left: 0px;display: none;}
+.menu ul li ul li ul li a, .menu ul li ul li ul li a:visited {position: relative; left: 150px; top:-46px;height:64px; text-align:center; text-decoration:none;color:#fff; line-height:45px; font-size:16px; padding:0px 40px;}
+/*.menu ul li ul li ul li :hover  .menu ul li ul li ul li{display:block;color:#000 }*/
+.menu ul li ul li.menu-item-has-children:hover ul li{display:block;color:#000 }
+/*.menu ul li  ul li ul li.menu-item-has-children :hover ul li  ul li ul li a {display:block;  background:#000;background: rgba(45, 45, 45, 0.9); font-size:14px;font-weight:normal;height:32px;line-height:32px; color:#fff; padding:0px; width:136px; text-align:left;}*/
+/*.menu ul li  ul li ul li.menu-item-has-children :hover ul li   ul li ul li a:hover { background:#000; background: rgba(45, 45, 45, 0.9); color:#fff;font-size:14px;font-weight:normal; display:block;}*/
+
+
+.sy_zt { width:1200px; margin:0px auto;}
+.sy_zt .left h1{ height:45px; line-height:45px; margin-top:10px; font-size:18px; color:#333; padding-left:15px; background:url(../images/l1.jpg) no-repeat center left; font-weight:bold; border-bottom:1px solid #dddddd;}
+.sy_zt .left h1 span { width:80px; height:20px; line-height:19px; border:1px solid #ed0033; color:#ed0033; text-align:center; float:right; margin-top:10px; font-weight:normal;}
+.sy_zt .left h1 span a {color:#ed0033; font-size:12px;}
+.sy_zt .left { width:900px; float:left;}
+.sy_zt .left .xwdt { width:435px;}
+.sy_zt .left .xwdt ul { padding-top:10px;}
+.sy_zt .left .xwdt ul li { padding:10px 0px;}
+.sy_zt .left .xwdt ul li .rl { width:70px; float:left; background:#f0f0f0; font-size:30px; font-family:Arial, Helvetica, sans-serif; text-align:center; color:#990033; line-height:55px; }
+.sy_zt .left .xwdt ul li .rl font { background:#990033; font-size:14px; color:#FFF; display:block; line-height:20px; }
+.sy_zt .left .xwdt ul li .wz { width:350px; float:right;}
+.sy_zt .left .xwdt ul li .wz h2 { font-size:16px; padding:0px; margin:0px; padding-bottom:5px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; color:#333;}
+.sy_zt .left .xwdt ul li .wz h2 a {font-size:16px;  color:#333;}
+.sy_zt .left .xwdt ul li .wz h2 a:hover { color:#990033; text-decoration:underline;}
+.sy_zt .left .xwdt ul li .wz p { font-size:13px; color:#666; height:40px; overflow:hidden;}
+.sy_zt .left .xwdt ul li .wz p a {font-size:13px;}
+
+.sy_zt .left .tpxw { width:435px;}
+.sy_zt .left .tpxw ul { padding-top:10px;}
+.sy_zt .left .tpxw ul li { padding:10px 0px;}
+.sy_zt .left .tpxw ul li .tp { width:146px; float:left; height:98px;}
+.sy_zt .left .tpxw ul li .tp img { width:100%; height:100%;}
+.sy_zt .left .tpxw ul li .wz { width:270px; float:right;}
+.sy_zt .left .tpxw ul li .wz h2 { font-size:16px; padding:0px; margin:0px; padding-bottom:5px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; color:#333;}
+.sy_zt .left .tpxw ul li .wz h2 a {font-size:16px;  color:#333;}
+.sy_zt .left .tpxw ul li .wz h2 a:hover { color:#990033; text-decoration:underline;}
+.sy_zt .left .tpxw ul li .wz p { font-size:13px; color:#666; height:60px; overflow:hidden;}
+.sy_zt .left .tpxw ul li .wz p a {font-size:13px;}
+
+
+.hzhb { width:100%;  margin:0px auto 0px auto; }
+.gd { width:900px; margin:10px auto; overflow:hidden;}
+.gd ul li{ width:168px; float:left; margin:0px 12px 0px 0px; position:relative;}
+.gd ul li span { position:absolute; bottom:0; left:0; z-index:10; background: rgba(0, 0, 0, 0.5); width:100%; height:40px; line-height:40px; color:#FFF; text-align:center; font-size:16px;}
+
+.sy_zt .right { width:280px; float:right;}
+.sy_zt .right h2{ height:45px; line-height:45px; margin-top:0px; font-size:18px; color:#333; padding-left:15px; background:url(../images/l1.jpg) no-repeat center left; font-weight:bold; border-bottom:1px solid #dddddd;}
+.sy_zt .right h2 span { line-height:20px; color:#ed0033; text-align:center; float:right; margin-top:10px; font-weight:normal;}
+.sy_zt .right h2 span a {color:#ed0033; font-size:12px;}
+.sy_zt .right .tzgg { background:#f6f6f6; padding:10px 15px;}
+.sy_zt .right .tzgg ul{ padding-top:10px;}
+.sy_zt .right .tzgg ul li { line-height:30px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; font-size:14px; }
+.sy_zt .right .tzgg ul li a {font-size:14px;}
+
+.foot { width:100%; background:#413537; color:#FFF;}
+.foot .xdh { background:#2a2627; line-height:55px; height:55px; color:#FFF; font-size:16px; text-align:center;}
+.foot .xdh a{color:#FFF; font-size:16px; padding:0px 25px;}
+.foot span { float:right; padding:15px; background:#5c5354; font-size:14px; text-align:center; }
+
+
+
+

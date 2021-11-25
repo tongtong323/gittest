@@ -1,0 +1,128 @@
+@charset 'utf-8';
+/*主页*/
+*, *:before, *:after {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		text-decoration: none;
+		box-sizing: border-box;
+	}
+	body {
+		font-size: 24px;
+		font-family: "Microsoft Yahei";
+	}
+	body:after {
+		content: '';
+		display: none;
+	}
+	img {
+		border: none;
+	}
+	.clearfix {
+		*zoom: 1;
+	}
+	.clearfix:after {
+		content: '';
+		display: table;
+		clear: both;
+		line-height: 0;
+	}
+/*文章页*/
+.information_list_content_trap{
+	width:100%;
+	background:#F7F7F7;
+}
+.information_list_box{
+	width:1200px;
+	background:#FFFFFF;
+	margin:auto;
+	padding:50px 30px;
+	min-height:800px;
+	overflow: hidden;
+}
+.information_slider{
+	width:210px;
+	min-height:500px;
+	float:left;
+}
+.slider_title{
+	width:100%;
+	height:60px;
+	background:#005423;
+	font-size:24px;
+	color:#fff;
+	text-align: center;
+}
+.slider_title>p{
+	line-height:60px;
+}
+.information_slider>ul{
+	background:#FCFBF7;
+}
+.information_slider>ul>li{
+	width:100%;
+	height:47px;
+	line-height:50px;
+	background:#EAEAEA;
+	margin-bottom:2px;
+	background:url(../images/511102607714115879.jpg);
+}
+#active{
+	background:#FFFFFF;
+}
+.information_slider>ul>li>a{
+	display: block;
+	font-size:14px;
+	text-indent: 20px;
+	color:#50080d;
+
+}
+.aricle_trap{
+	width:600px;
+	min-height:600px;
+	float:right;
+}
+.aricle_trap h3{
+	font-size:22px;
+	font-weight:bold;
+	text-align: center;
+	border-bottom:1px solid #f44336;
+	padding-bottom:10px;
+}
+.date{
+	text-align: center;
+	font-size:16px;
+	color:#999;
+	padding:0px 375px;
+}
+.aricle_content{
+	min-height:400px;
+}
+.aricle_content p{
+	color:#000;
+	font-size:16px;
+	text-indent:2em;
+}
+.single_page_nav{
+	height:50px;
+	margin-top:30px;
+	font-size: 15px;
+}
+.single_page_nav span{
+	font-size:15px;
+}
+.single_page_nav a{
+	font-size:15px;
+	color:#000;
+}
+.single_page_nav a:hover{
+	font-size:15px;
+	color:#f44336;
+}
+.information_slider>ul>li.current-cat{
+	background:#EAEAE;
+	background:url(images/11102607714115879.jpg);
+}
+.cat-item-none{
+	display: none;
+}

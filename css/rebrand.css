@@ -1,0 +1,21 @@
+#slidorion {width: 1200px;/* Set to slidorion width. Is equal to #slider + #accordion width */height: 520px;/* Set to slidorion height. Is equal to #slider and #accordion height */position: relative;left: 50%;margin-left:-600px;}
+#slider {width: 920px;/* Set to slider width */height:520px;/* Set to slider height */position: relative;float: left;overflow: hidden;/* Hides the animations */}
+.slider-image {position: relative;}
+
+#accordion {width: 280px;height: 520px;font-family: Verdana;background: #990033;position:relative;z-index:99;float: left;}
+#accordion .header {height: 50px;color:#fff; background:#ff5c5e; }
+#accordion .header a {background: none;padding: 0px 20px;text-decoration: none;font-size: 18px;display: block; line-height:50px; color:#fff;}
+#accordion .header a:hover {background:#ff5c5e;cursor: pointer;}
+#accordion .header a.active {border-bottom: none;background-color:#ff5c5e !important;color: #fff;}
+
+#accordion .content {height: 370px;font-size: 12px; margin:0;padding: 20px; border:none; background: #990033; color: #fff; position:relative;}
+#accordion .content .tp { position:absolute; right:280px; top:30%; z-index:101;}
+#accordion .content a { color:#FFF;}
+
+#accordion .content p{ height:260px;}
+#accordion .content .wzd{font-size:18px; line-height:30px;text-overflow:ellipsis; white-space:nowrap; overflow:hidden; border-bottom:1px solid #fff; padding-bottom:10px; margin-bottom:20px; }
+
+
+#accordion .btn_link {width:225px; font-style: normal; font-size: 14px;padding: 8px 0;border: none;border-top: 1px solid #fff; background: url(../images/arrow-big-white2.png) no-repeat center right;background-size:12px;background-position: 100%;}
+#accordion .btn_link:hover span{color:#eee;}
+#accordion .btn_link span{width:225px; padding: 0;color: #fff;font-weight: normal; font-size: 14px;}
